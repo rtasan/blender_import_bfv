@@ -2,6 +2,10 @@
 __pycache__/
 *.py[cod]
 *$py.class
+examples/
+example_models/
+*.blend
+*.blend1
 
 # C extensions
 *.so
