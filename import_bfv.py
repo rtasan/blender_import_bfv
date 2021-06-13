@@ -3,8 +3,8 @@ import os
 import glob
 import time
 
-
-data_dir = r"C:\Users\Reiko\Documents\gitprojects\blender_import_bfv\example_models\model1"
+# Enter your folder path here
+data_dir = r"FOLDER PATH"
 
 def import_bfv(folder_path):
     bpy.ops.object.select_all(action='DESELECT')
@@ -56,4 +56,3 @@ start = int(time.time() * 1000.0)
 import_bfv(data_dir)
 
 print("All done in " + str(int((time.time() * 1000.0) - start)) + "ms")
-
